@@ -1,0 +1,25 @@
+{
+  "name": "repo-prompt",
+  "version": "1.0.0",
+  "description": "CLI tool to generate prompts from GitHub repositories",
+  "main": "dist/index.js",
+  "bin": {
+    "repo-prompt": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.19",
+    "commander": "^12.0.0",
+    "prettier": "^3.2.5",
+    "repomix": "^1.0.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

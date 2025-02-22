@@ -1,0 +1,14 @@
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# Generated files
+*.txt
+
+# LLM files
+.llms/
+
+# OS files
+.DS_Store 
