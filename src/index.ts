@@ -48,7 +48,7 @@ async function cloneRepo(
   tempDir: string
 ): Promise<void> {
   return new Promise((resolve, reject) => {
-    const args = ['clone'];
+    const args = ['clone', '--depth', '1'];
     if (repoInfo.branch) {
       args.push('-b', repoInfo.branch);
     }
