@@ -1,6 +1,6 @@
 {
   "name": "repo-prompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to generate prompts from GitHub repositories",
   "main": "dist/index.js",
   "bin": {
